@@ -9,14 +9,15 @@ find_package(catkin REQUIRED COMPONENTS
 # Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  Sensor5TEMessage.msg
+  Sensor5TE.msg
+  Sensor5TEArray.msg
 )
 
-# Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  Sensor5TE.srv
-)
+# # Generate services in the 'srv' folder
+# add_service_files(
+#   FILES
+#   Sensor5TE.srv
+# )
 
 # Generate added messages and services with any dependencies listed here
 generate_messages(
